@@ -1,0 +1,70 @@
+class w():
+ 
+
+    def sides(self):
+        pass
+ 
+class l(w):
+ 
+    # overriding abstract method
+    def sides(self):
+        print("I have 3 sides")
+
+class q(): 
+     def type(self): 
+       print("Vegetable") 
+    
+class d(): 
+     def type(self): 
+       print("Fruit") 
+    
+      
+def func(obj): 
+       obj.type() 
+     
+        
+obj_t = q() 
+obj_a = d() 
+func(obj_t) 
+func(obj_a)
+
+
+
+class Base:
+    def init(self):
+        self.a = "GeeksforGeeks"
+        self.c = "GeeksforGeeks"
+
+
+
+class a:
+ __name= None
+ __age= None
+ gender= "male"
+ 
+
+ def __init(self):
+        self.name = "ans"
+        self.__age = 123
+ def __del(self):
+    None
+
+
+
+class b(a):
+    
+ def _init_(self,num,age):
+    self.num=num
+    self.age=age
+ def _fun(num,age):
+     print(f"{num} {age}")
+def __fun2(num,age):
+     print(f"{num} {age}")
+
+
+class c(a):
+ num="ridaa"
+ 
+
+class d(b):
+ pass
